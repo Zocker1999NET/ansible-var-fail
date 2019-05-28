@@ -1,4 +1,5 @@
 ---
 
-- debug:
+- name: my main role debug message
+  debug:
     var: domain
