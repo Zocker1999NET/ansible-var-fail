@@ -1,0 +1,5 @@
+---
+
+- name: dependencyrole debug message
+  debug:
+    var: domain

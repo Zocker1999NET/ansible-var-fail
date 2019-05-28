@@ -1,0 +1,12 @@
+---
+
+- hosts: 127.0.0.1
+  connection: local
+  gather_facts: no
+  roles:
+    - role: myrole
+      vars:
+        domain: test1
+    - role: myrole
+      vars:
+        domain: test2
